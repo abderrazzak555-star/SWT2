@@ -1,0 +1,2 @@
+# Ignore cached binaries
+*/__pycache__/*

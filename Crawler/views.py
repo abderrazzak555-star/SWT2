@@ -9,7 +9,7 @@ def index(request):
     context = {
         'crawlerStatus': getCrawlerStatus(),
     }
-    return render(request, 'index.html', context)
+    return render(request, 'Crawler/index.html', context)
 
 
 def crawlerStatus(request):

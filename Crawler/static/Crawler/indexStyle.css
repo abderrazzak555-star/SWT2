@@ -1,0 +1,11 @@
+button {
+    padding: 5px 15px;
+}
+
+.crawlerStatus {
+    border: 5px solid gray;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: larger;
+}

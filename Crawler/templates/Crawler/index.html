@@ -1,7 +1,11 @@
+{% load static %}
 <html>
 
 <head>
     <title>Crawler</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'Crawler/indexStyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'mainSite/headerStyle.css' %}">
 
     <script>
         // automatisches aktualisieren des Crawler Status
@@ -47,14 +51,20 @@
 </head>
 
 <body>
+    <header>
+        <a href="{% url 'mainSite:index' %}">Startseite</a>
+        <a href="{% url 'Crawler:index' %}" disabled>Crawler</a>
+        <a href="{% url 'admin:login' %}">Admin</a>
+    </header>
+
     <h1>Konfiguration für den Crawler</h1>
 
-    <p>
+    <p class="crawlerStatus">
         Crawler Status:
         <i id="crawlerStatus">{{ crawlerStatus }}</i>
     </p>
 
-    <button onclick="startCrawler()">Crawler starten</button><br />
+    <button onclick="startCrawler()">Crawler starten</button>
     <button onclick="stopAllCrawler()">Crawler stoppen</button>
 </body>
 

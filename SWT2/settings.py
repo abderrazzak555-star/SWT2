@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'mainSite.apps.MainsiteConfig',
     'Crawler.apps.CrawlerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
