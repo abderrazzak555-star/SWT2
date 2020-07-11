@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Crawler</title>
+
+    <script>
+        // automatisches aktualisieren des Crawler Status
+        function updateCrawlerStatus() {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", "{% url 'Crawler:crawlerStatus' %}")
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState === 4) {
+                    document.getElementById("crawlerStatus").innerHTML = xmlHttp.responseText;
+                }
+            }
+            xmlHttp.send(null);
+        }
+        setInterval(updateCrawlerStatus, 2000);
+    </script>
+
+    <script>
+        function startCrawler() {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", "{% url 'Crawler:startCrawler' %}")
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState === 4) {
+                    if (xmlHttp.status !== 200)
+                        window.alert("Could not start crawler");
+                    updateCrawlerStatus();
+                }
+            }
+            xmlHttp.send(null);
+        }
+        function stopAllCrawler() {
+            var xmlHttp = new XMLHttpRequest();
+            xmlHttp.open("GET", "{% url 'Crawler:stopCrawler' %}")
+            xmlHttp.onreadystatechange = function () {
+                if (xmlHttp.readyState === 4) {
+                    if (xmlHttp.status !== 200)
+                        window.alert("Could not stop crawler");
+                    updateCrawlerStatus();
+                }
+            }
+            xmlHttp.send(null);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Konfiguration für den Crawler</h1>
+
+    <p>
+        Crawler Status:
+        <i id="crawlerStatus">{{ crawlerStatus }}</i>
+    </p>
+
+    <button onclick="startCrawler()">Crawler starten</button><br />
+    <button onclick="stopAllCrawler()">Crawler stoppen</button>
+</body>
+
+</html>
