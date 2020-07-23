@@ -1,0 +1,81 @@
+2020.07.11 20:57:58 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.07.11 20:57:58 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.07.11 20:58:00 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2020.07.11 20:58:00 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020.07.11 20:58:00 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020.07.11 20:58:00 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020.07.11 20:58:03 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.07.11 20:58:03 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.07.11 20:58:04 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2020.07.11 20:58:05 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\abderrazzak\Desktop\sonarqube-8.3.1.34397
+2020.07.11 20:58:05 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.07.11 20:58:08 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2020.07.11 20:58:08 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2020.07.11 21:00:23 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2020.07.11 21:00:23 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2020.07.11 21:00:23 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2020.07.11 21:00:23 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2020.07.11 21:03:52 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.07.11 21:03:52 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.07.11 21:03:53 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2020.07.11 21:03:53 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020.07.11 21:03:53 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020.07.11 21:03:53 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020.07.11 21:03:57 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.07.11 21:03:57 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.07.11 21:03:57 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2020.07.11 21:03:58 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\abderrazzak\Desktop\sonarqube-8.3.1.34397
+2020.07.11 21:03:58 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.07.11 21:04:00 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2020.07.11 21:04:00 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2020.07.11 21:04:40 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2020.07.11 21:04:40 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2020.07.11 21:04:40 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2020.07.11 21:04:40 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2020.07.11 21:19:07 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.07.11 21:19:07 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.07.11 21:19:09 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2020.07.11 21:19:09 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020.07.11 21:19:09 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020.07.11 21:19:09 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020.07.11 21:19:12 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.07.11 21:19:12 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.07.11 21:19:12 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2020.07.11 21:19:14 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\abderrazzak\Desktop\sonarqube-8.3.1.34397
+2020.07.11 21:19:14 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.07.11 21:19:28 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2020.07.11 21:19:28 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2020.07.11 21:19:42 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2020.07.11 21:19:42 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2020.07.11 21:19:42 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2020.07.11 21:19:43 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2020.07.11 21:23:32 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.07.11 21:23:32 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.07.11 21:23:33 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2020.07.11 21:23:33 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020.07.11 21:23:33 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020.07.11 21:23:33 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020.07.11 21:23:36 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.07.11 21:23:36 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.07.11 21:23:36 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2020.07.11 21:23:38 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\abderrazzak\Desktop\sonarqube-8.3.1.34397
+2020.07.11 21:23:38 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.07.11 21:23:50 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2020.07.11 21:23:50 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
+2020.07.11 21:24:51 INFO  ce[][o.s.p.ProcessEntryPoint] Gracefully stopping process
+2020.07.11 21:24:51 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopping...
+2020.07.11 21:24:51 INFO  ce[][o.s.c.t.CeProcessingSchedulerImpl] Gracefully stopping workers...
+2020.07.11 21:24:51 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is stopped
+2020.07.11 22:16:42 INFO  ce[][o.s.p.ProcessEntryPoint] Starting ce
+2020.07.11 22:16:42 INFO  ce[][o.s.ce.app.CeServer] Compute Engine starting up...
+2020.07.11 22:16:44 INFO  ce[][o.e.p.PluginsService] no modules loaded
+2020.07.11 22:16:44 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020.07.11 22:16:44 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020.07.11 22:16:44 INFO  ce[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020.07.11 22:16:49 INFO  ce[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2020.07.11 22:16:49 INFO  ce[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2020.07.11 22:16:49 WARN  ce[][o.s.db.dialect.H2] H2 database should be used for evaluation purpose only.
+2020.07.11 22:16:51 INFO  ce[][o.s.s.p.ServerFileSystemImpl] SonarQube home: C:\Users\abderrazzak\Desktop\sonarqube-8.3.1.34397
+2020.07.11 22:16:51 INFO  ce[][o.s.c.c.CePluginRepository] Load plugins
+2020.07.11 22:17:05 INFO  ce[][o.s.c.c.ComputeEngineContainerImpl] Running Community edition
+2020.07.11 22:17:05 INFO  ce[][o.s.ce.app.CeServer] Compute Engine is operational
